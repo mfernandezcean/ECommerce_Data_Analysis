@@ -15,3 +15,10 @@ There are exactly 6 tables, 1 of which is a fact table and the rest are dimensio
  - item_dim
  - store_dim 
  - time_dim
+
+### Fact Table:
+
+#### **payment_key:** 
+##### Description: An identifier representing the payment transaction associated with the fact.
+##### Use Case: This key links to a payment dimension table, providing details about the payment method and related information.
+
