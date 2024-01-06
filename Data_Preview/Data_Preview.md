@@ -1,3 +1,5 @@
+## Composition of Tables:
+
 ### Fact Table:
 
 #### **payment_key:** 
