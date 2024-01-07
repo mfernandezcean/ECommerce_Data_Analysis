@@ -29,4 +29,4 @@ FROM
 |contact_no | 9,190|
 | nid|9,191 |
 
-*Seems alright. Primary Key are all unique and also nid (that is 'unique identification number for the customer'). Then the others is logical to have repetitions*
+*Seems alright. Primary Key is unique and also nid (that is 'unique identification number for the customer'). Then the others is logical to have repetitions*
