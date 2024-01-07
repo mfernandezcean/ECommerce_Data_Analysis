@@ -51,3 +51,16 @@
 #### Description: The name of the customer.
 #### Use Case: Captures the personal or business name of the customer for identification and reference purposes.
 ---
+### **contact_no:** 
+#### Description: The contact number associated with the customer.
+#### Use Case: Stores the phone number or contact details for communication or outreach purposes.
+---
+### **nid:** 
+#### Description: The National ID (NID) or a unique identification number for the customer.
+---
+- ### Item Table:
+
+### **item_key:** 
+#### Description: An identifier representing a unique item or product.
+#### Use Case: Serves as the primary key to link with the fact table, enabling retrieval of detailed information about specific items in transactions.
+---
