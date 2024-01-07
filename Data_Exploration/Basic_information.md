@@ -51,3 +51,29 @@ FROM
 |  store_dim| num_rows |
 |--|--|
 | 1 |726|
+
+- Time Table:
+```
+SELECT 
+  COUNT(*) AS num_rows 
+FROM 
+  time_dim;
+
+```
+
+|  time_dim| num_rows |
+|--|--|
+| 1 |99,999|
+
+- Transaction (*payment*) Table:
+```
+SELECT 
+  COUNT(*) AS num_rows 
+FROM 
+  Trans_dim;
+
+```
+
+|  Trans_dim| num_rows |
+|--|--|
+| 1 |39|
