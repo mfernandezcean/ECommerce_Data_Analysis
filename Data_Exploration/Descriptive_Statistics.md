@@ -1,5 +1,9 @@
 ## Descriptive Statistics:
 
+- Fact Table:
+
+### Quantity:
+
 ```
 SELECT 
   AVG(quantity) AS Quantity_mean, 
@@ -36,3 +40,7 @@ FROM
   fact_table;
 
 ```
+
+| Quantity_mean	|Quantity_min_value	 | Quantity_max_value	|Quantity_median
+|--|--|--|--|
+|6 | 1| 11	|6
