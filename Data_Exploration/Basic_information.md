@@ -1,4 +1,4 @@
-# Data Exploration:
+# Basic info:
 
 ## Count number of rows of tables:
 - Customer Table:
