@@ -93,3 +93,16 @@
 #### Description: An identifier representing a unique store or location.
 #### Use Case: Serves as the primary key to link with the fact table, allowing for easy retrieval of information about transactions associated with specific stores.
 ---
+### **division:** 
+#### Description: The administrative division or region where the store is located.
+#### Use Case: Captures the broader geographical area in which the store operates.
+---
+### **district:** 
+#### Description: The district where the store is situated.
+#### Use Case: Specifies a more localized geographical area, providing information about the district where the store is located.
+---
+### **upazila:** 
+#### Description: The upazila or sub-district where the store is situated.
+#### Use Case: Represents a more granular geographical location, providing details 
+---
+- ### Time Table:
