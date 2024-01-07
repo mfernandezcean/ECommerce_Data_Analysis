@@ -176,4 +176,59 @@ FROM
 | division|7|726
 |district| 64|726
 | upazila|540|726
-  
+
+- Time Table:
+
+```
+SELECT 
+  COUNT(DISTINCT time_key) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT date) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT hour) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT day) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT week) as num_unique 
+FROM 
+  time_dim;
+SELECT 
+  COUNT(DISTINCT month) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT quarter) as num_unique 
+FROM 
+  time_dim;
+
+SELECT 
+  COUNT(DISTINCT year) as num_unique 
+FROM 
+  time_dim;
+
+```
+
+|  Time Table| num_unique| total_rows
+|--|--|--|
+| time_key|99,999|99,999
+| date| 98,578|99,999
+|hour| 24|99,999
+| day|31|99,999
+| week| 4|99,999
+|month | 12|99,999
+| quarter|4 |99,999
+| year| 8|99,999
+
