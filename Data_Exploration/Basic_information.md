@@ -146,3 +146,22 @@ FROM
 |3.00  | SYLHET |HABIGANJ |BANIACHONG |
 |  4.00|  SYLHET|HABIGANJ |CHUNARUGHAT |
 | 5.00 |  SYLHET|HABIGANJ | HABIGANJ SADAR|
+
+- Time Table:
+```
+SELECT 
+  Top(5) * 
+FROM 
+  time_dim;
+
+```
+
+
+| time_key|date|hour|day|week |month | quarter|year
+|--|--|--|--|--|--|--|--|
+| T00001|2017-05-20 14:56:00.0000000|14| 20| 3rd Week|5|2.00|2017
+|T00002| 2015-01-30 22:14:00.0000000|22| 30|4th Week |1|1.00|2015
+|T00003| 2020-03-14 02:34:00.0000000 |2|14|2nd Week |3|1.00|2020
+|  T00004|  2018-04-27 12:19:00.0000000|12|27|4th Week|4|2.00|2018
+| T00005|  2018-04-14 10:43:00.0000000|10| 14|2nd Week |4|2.00|2018
+  
