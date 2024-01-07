@@ -25,3 +25,16 @@ FROM
 |  fact_table| num_rows |
 |--|--|
 | 1 |1,000,000|
+
+- Item Table:
+```
+SELECT 
+  COUNT(*) AS num_rows 
+FROM 
+  item_dim;
+
+```
+
+|  item_dim| num_rows |
+|--|--|
+| 1 |264|
