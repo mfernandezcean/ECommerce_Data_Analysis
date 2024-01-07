@@ -81,7 +81,7 @@ FROM
 
 ```
 
-|  FactTable| num_unique| total_rows
+|  Fact Table| num_unique| total_rows
 |--|--|--|
 | payment_key|39|1,000,000
 | coustomer_key| 9,191|1,000,000
@@ -93,4 +93,87 @@ FROM
 | unit_price| 46|1,000,000
 | total_price|285 |1,000,000
 
-*this is a fact table so repetition is expected. Checking with the primary key's in the dimension tables is more relevant*
+*This is a fact table so repetition is expected. Checking with the primary key's in the dimension tables is more relevant*
+
+- Item Table:
+
+```
+SELECT 
+  COUNT(DISTINCT item_key) AS num_unique 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT item_name) AS num_unique 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT[desc]) 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT unit_price) AS num_unique 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT man_country) AS num_unique 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT supplier) AS num_unique 
+FROM 
+  item_dim;
+
+SELECT 
+  COUNT(DISTINCT unit) AS num_unique 
+FROM 
+  item_dim;
+
+```
+
+|  Item Table| num_unique| total_rows
+|--|--|--|
+| item_key|294|294
+| item_name|259|294
+|desc| 29|294
+| unit_price|46|294
+| man_country| 10|294
+|supplier | 10|294
+| unit|16 |294
+
+- Store Table:
+
+```
+SELECT 
+  COUNT(DISTINCT store_key) AS num_unique 
+FROM 
+  store_dim;
+
+SELECT 
+  COUNT(DISTINCT division) AS num_unique 
+FROM 
+  store_dim;
+
+SELECT 
+  COUNT(DISTINCT district) AS num_unique 
+FROM 
+  store_dim;
+
+SELECT 
+  COUNT(DISTINCT upazila) AS num_unique 
+FROM 
+  store_dim;
+
+```
+
+|  Store Table| num_unique| total_rows
+|--|--|--|
+| store_key|726|726
+| division|7|726
+|district| 64|726
+| upazila|540|726
+  
