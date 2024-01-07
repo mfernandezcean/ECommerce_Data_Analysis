@@ -79,3 +79,19 @@ FROM
 | 1 |39|
 ---
 ## Examine First Rows:
+- Customer Table:
+```
+SELECT 
+  Top(5) * 
+FROM 
+  customer_dim;
+
+```
+| customer_key |name  |contact_no |nid |
+|--|--|--|--|
+| C000001 |sumit  |8801920345851 | 7505075708899|
+| C000002 | tammanne |8801817069329 | 1977731324842|
+|C000003  | kailash kumar |8801663795774 |3769494056318 |
+|  C000004|  bhagwati prasad|8801533627961 |9378834712725 |
+| C000005 |  ajay|8801943715786 | 3540815556323|
+  
