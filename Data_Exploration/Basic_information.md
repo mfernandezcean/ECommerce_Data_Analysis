@@ -130,3 +130,19 @@ FROM
 |I00003| Barq's Root Beer - 12 oz cans |a. Beverage - Soda|6.75|Bangladesh |DENIMACH LTD|cans
 |  I00004|  Cherry Coke 12oz|a. Beverage - Soda|6.75|Netherlands |Bolsius Boxmeer|cans
 | I00005|  Cherry Coke Zero 12 pack|a. Beverage - Soda| 6.75|Finland |HARDFORD AB|cans
+
+- Store Table:
+```
+SELECT 
+  Top(5) * 
+FROM 
+  store_dim;
+
+```
+| store_key |division  |district |upazila |
+|--|--|--|--|
+| 1.00 |SYLHET  |HABIGANJ | AJMIRIGANJ|
+| 2.00 | SYLHET |HABIGANJ | BAHUBAL|
+|3.00  | SYLHET |HABIGANJ |BANIACHONG |
+|  4.00|  SYLHET|HABIGANJ |CHUNARUGHAT |
+| 5.00 |  SYLHET|HABIGANJ | HABIGANJ SADAR|
