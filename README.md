@@ -19,5 +19,5 @@ There are exactly 6 tables, 1 of which is a fact table and the rest are dimensio
  - store_dim 
  - time_dim
 
-For more detalied information on Data Description go to [Data_Preview](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Preview/Data_Preview.md)
+For more detalied information on Data Description go to [Data Preview](https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Preview)
 
