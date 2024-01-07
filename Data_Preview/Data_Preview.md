@@ -106,3 +106,49 @@
 #### Use Case: Represents a more granular geographical location, providing details 
 ---
 - ### Time Table:
+
+### **time_key:** 
+#### Description: An identifier representing a unique time or timestamp.
+#### Use Case: Serves as the primary key to link with the fact table, allowing for easy and efficient retrieval of information about transactions based on time.
+---
+### **date:** 
+#### Description: The specific date associated with the timestamp.
+#### Use Case: Captures the calendar date corresponding to the time key, providing information about when a transaction occurred.
+---
+### **hour:** 
+#### Description: The hour component of the timestamp.
+#### Use Case: Represents the specific hour of the day when a transaction took place, allowing for time-based analysis.
+---
+### **day:** 
+#### Description: The day of the week associated with the timestamp.
+#### Use Case: Provides information about the day of the week for more granular time-based analysis.
+---
+### **week:** 
+#### Description: The week number associated with the timestamp.
+#### Use Case: Captures the week in the calendar year when a transaction occurred, facilitating weekly analysis.
+---
+### **month:** 
+#### Description: The month associated with the timestamp.
+#### Use Case: Represents the calendar month when a transaction took place, enabling monthly analysis.
+---
+### **quarter:** 
+#### Description: The quarter of the year associated with the timestamp.
+#### Use Case: Captures the quarter in the calendar year when a transaction occurred, facilitating quarterly analysis.
+---
+### **year:** 
+#### Description: The calendar year associated with the timestamp.
+---
+- ### Payment Table:
+
+### **payment_key:** 
+#### Description: An identifier representing a unique payment transaction.
+#### Use Case: Serves as the primary key to link with the fact table, allowing for easy and efficient retrieval of information about transactions based on payment.
+---
+### **trans_type:** 
+#### Description: The type or method of payment used for the transaction.
+#### Use Case: Captures the specific payment method employed, such as credit card, cash, or other forms of payment.
+---
+### **bank_name:** 
+#### Description: The name of the bank associated with the payment transaction.
+#### Use Case: Specifies the financial institution or bank involved in processing the payment, providing additional details about the transaction.
+
