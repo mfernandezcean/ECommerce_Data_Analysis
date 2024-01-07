@@ -232,3 +232,27 @@ FROM
 | quarter|4 |99,999
 | year| 8|99,999
 
+- Trans Table:
+
+```
+SELECT 
+  COUNT(DISTINCT payment_key) AS num_unique 
+FROM 
+  Trans_dim;
+SELECT 
+  COUNT(DISTINCT trans_type) AS num_unique 
+FROM 
+  Trans_dim;
+SELECT 
+  COUNT(DISTINCT bank_name) AS num_unique 
+FROM 
+  Trans_dim;
+
+```
+
+|  Trans Table| num_unique| total_rows
+|--|--|--|
+| payment_key|39|39
+| trans_type| 3|39
+|bank_name| 39|39
+
