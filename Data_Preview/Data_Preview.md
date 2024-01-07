@@ -80,3 +80,16 @@
 #### Description: The country where the item is manufactured.
 #### Use Case: Captures the origin or manufacturing location of the item.
 ---
+### **supplier:** 
+#### Description: The supplier or vendor providing the item.
+#### Use Case: Stores the name or identifier of the supplier, facilitating tracking of item sources.
+---
+### **unit:** 
+#### Description: The unit of measurement associated with the item (e.g., pieces, kilograms).
+---
+- ### Store Table:
+
+### **store_key:** 
+#### Description: An identifier representing a unique store or location.
+#### Use Case: Serves as the primary key to link with the fact table, allowing for easy retrieval of information about transactions associated with specific stores.
+---
