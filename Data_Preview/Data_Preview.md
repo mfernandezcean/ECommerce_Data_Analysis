@@ -64,3 +64,19 @@
 #### Description: An identifier representing a unique item or product.
 #### Use Case: Serves as the primary key to link with the fact table, enabling retrieval of detailed information about specific items in transactions.
 ---
+### **item_name:** 
+#### Description: The name or title of the item.
+#### Use Case: Captures the descriptive name of the item, providing a recognizable label for the product.
+---
+### **desc:** 
+#### Description: A description of the item.
+#### Use Case: Contains additional details about the item, such as features, specifications, or any relevant information.
+---
+### **unit_price:** 
+#### Description: The price per unit of the item.
+#### Use Case: Represents the cost or price associated with each unit of the item.
+---
+### **man_country:** 
+#### Description: The country where the item is manufactured.
+#### Use Case: Captures the origin or manufacturing location of the item.
+---
