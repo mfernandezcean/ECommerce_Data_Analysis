@@ -165,3 +165,18 @@ FROM
 |  T00004|  2018-04-27 12:19:00.0000000|12|27|4th Week|4|2.00|2018
 | T00005|  2018-04-14 10:43:00.0000000|10| 14|2nd Week |4|2.00|2018
   
+- Transaction (*payment*) Table:
+```
+SELECT 
+  Top(5) * 
+FROM 
+  Trans_dim;
+
+```
+| payment_key |trans_type  |bank_name 
+|--|--|--|
+| P001 |cash  |None 
+| P002 | card |AB Bank Limited 
+|P003  | card |Bangladesh Commerce Bank Limited 
+|  P004|  card|Bank Asia Limited 
+| P005 |  card|BRAC Bank Limited 
