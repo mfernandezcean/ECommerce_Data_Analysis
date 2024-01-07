@@ -1,6 +1,6 @@
-## Data Exploration:
+# Data Exploration:
 
-### Count number of rows of tables:
+## Count number of rows of tables:
 - Customer Table:
 ```
 SELECT 
@@ -77,3 +77,5 @@ FROM
 |  Trans_dim| num_rows |
 |--|--|
 | 1 |39|
+---
+## Examine First Rows:
