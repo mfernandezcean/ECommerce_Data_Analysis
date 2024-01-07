@@ -1,5 +1,5 @@
 ## Data Exploration:
-- Number of Rows of each table:
+- [Number](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Basic_information.md) of Rows of each table:
   
 |  Table Name| num_rows |
 |--|--|
@@ -12,4 +12,4 @@
 
 - Missing Values:
 
-27 names are missing from the customer table.
+[27](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Missing_Values.md) names are missing from the customer table.
