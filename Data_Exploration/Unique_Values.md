@@ -22,11 +22,11 @@ FROM
   customer_dim;
 
 ```
-|  Customer Table| num_unique|
-|--|--|
-| coustomer_key |9,191|
-| name| 4,534|
-|contact_no | 9,190|
-| nid|9,191 |
+|  Customer Table| num_unique|total_rows
+|--|--|--|
+| coustomer_key |9,191|9,191
+| name| 4,534|9,191
+|contact_no | 9,190|9,191
+| nid|9,191 |9,191
 
 *Seems alright. Primary Key is unique and also nid (that is 'unique identification number for the customer'). Then the others is logical to have repetitions*
