@@ -113,3 +113,20 @@ FROM
 |  16.00|  C007555|T026577|I00120|619.00 |8|ct|9|72
 | 24.00|  C003316|T038477| I00244|178.00 |5|oz|18|90
   
+- Item Table:
+```
+SELECT 
+  Top(5) * 
+FROM 
+  item_dim;
+
+```
+
+
+| item_key|item_name|desc|unit_price|man_country |supplier | unit|
+|--|--|--|--|--|--|--|
+| I00001|A&W Root Beer - 12 oz cans|a. Beverage - Soda| 11.5| Netherlands|Bolsius Boxmeer|cans
+| I00002| A&W Root Beer Diet - 12 oz cans|a. Beverage - Soda| 6.75|poland |CHROMADURLIN S.A.S|cans
+|I00003| Barq's Root Beer - 12 oz cans |a. Beverage - Soda|6.75|Bangladesh |DENIMACH LTD|cans
+|  I00004|  Cherry Coke 12oz|a. Beverage - Soda|6.75|Netherlands |Bolsius Boxmeer|cans
+| I00005|  Cherry Coke Zero 12 pack|a. Beverage - Soda| 6.75|Finland |HARDFORD AB|cans
