@@ -47,3 +47,10 @@ WHERE
 |1| 363,606
 |1.5|181,719
 |2| 0
+
+[Z-Score](https://umsystem.pressbooks.pub/isps/chapter/chapter-4/) is considered a solid method to identify outliers. When the threshold is either over or under 2.5, it is considered an outlier.
+
+- in this Column of quantity, no outliers where found.
+
+### Unit Price:
+
