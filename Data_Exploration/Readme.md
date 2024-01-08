@@ -13,3 +13,15 @@
 - Missing Values:
 
 [27](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Missing_Values.md) names are missing from the customer table.
+
+- Descriptive Statistcs:
+
+#### Fact Table:
+
+| Item| Mean|Min| Max|Median
+|--|--|--|--|--|
+|Quantity| 6| 1|11 | 6
+|Unit Price| 17.56160175| 6|55| 16
+|Total Price| 105.40143575| 6|605| 90
+
+#### Item Table:
