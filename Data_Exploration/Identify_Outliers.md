@@ -131,9 +131,28 @@ FROM
 
 ```
 
-
-
-
 | mean	| std_dev	|min_value	| max_value
 |--|--|--|--|
 |105.40143575	| 80.8293013000364	| 6|605
+
+#### Z-Score:
+
+```
+WITH ZScoreCTE AS (
+    SELECT
+        total_price,
+        (total_price - AVG(total_price) OVER ()) / STDEV(total_price) OVER () AS ZScore
+    FROM fact_table
+)
+SELECT Distinct total_price
+FROM ZScoreCTE
+WHERE ABS(ZScore) > 2.5 
+ORDER BY total_price;
+```
+
+| Z-Score| Number of rows	|
+|--|--|
+|1| 123
+|1.5|68
+|2| 51
+|2.5|41
