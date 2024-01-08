@@ -25,3 +25,7 @@
 |Total Price| 105.40143575| 6|605| 90
 
 #### Item Table:
+
+| Item| Mean|Min| Max|Median
+|--|--|--|--|--|
+|Unit Price| 17.5549242424242| 6|55| 16
