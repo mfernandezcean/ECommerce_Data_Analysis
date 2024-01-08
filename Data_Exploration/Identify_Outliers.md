@@ -54,7 +54,19 @@ WHERE
 
 ### Unit Price:
 
+```
+SELECT 
+  AVG(unit_price) as mean, 
+  STDEV(unit_price) as std_dev, 
+  min(unit_price) as min_value, 
+  Max(unit_price) as max_value 
+FROM 
+  fact_table;
+```
 
+| mean	| std_dev	|min_value	| max_value
+|--|--|--|--|
+|17.56160175	| 8.63709693047035		| 6|55
 
 
 
