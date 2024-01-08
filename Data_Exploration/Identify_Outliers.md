@@ -54,3 +54,35 @@ WHERE
 
 ### Unit Price:
 
+
+
+
+
+#### Z-Score:
+
+```
+WITH ZScoreCTE AS (
+  SELECT 
+    unit_price, 
+    (
+      unit_price - AVG(unit_price) OVER ()
+    ) / STDEV(unit_price) OVER () AS ZScore 
+  FROM 
+    fact_table
+) 
+SELECT 
+  * 
+FROM 
+  ZScoreCTE 
+WHERE 
+  ABS(ZScore) > 1 
+ORDER BY 
+  unit_price;
+
+```
+
+| Z-Score| Number of rows	|
+|--|--|
+|1| 204,907
+|1.5|0
+|2| 0
