@@ -16,7 +16,7 @@
 
 - Descriptive Statistcs:
 
-#### Fact Table:
+#### [Fact Table](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Descriptive_Statistics.md):
 
 | Item| Mean|Min| Max|Median
 |--|--|--|--|--|
@@ -24,7 +24,7 @@
 |Unit Price| 17.56160175| 6|55| 16
 |Total Price| 105.40143575| 6|605| 90
 
-#### Item Table:
+#### [Item Table](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Descriptive_Statistics.md):
 
 | Item| Mean|Min| Max|Median
 |--|--|--|--|--|
