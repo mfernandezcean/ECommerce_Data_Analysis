@@ -113,4 +113,27 @@ Z-score|unit_price|
 |> 2.5|46|
 |> 2.5|48|
 |> 2.5|53|
-|> 2.5|55
+|> 2.5|55|
+
+## WHAT TO DO WITH THESE OUTLIERS???????????????????????????
+
+
+### Total Price:
+
+```
+SELECT 
+  AVG(total_price) as mean, 
+  STDEV(total_price) as std_dev, 
+  min(total_price) as min_value, 
+  Max(total_price) as max_value 
+FROM 
+  fact_table;
+
+```
+
+
+
+
+| mean	| std_dev	|min_value	| max_value
+|--|--|--|--|
+|105.40143575	| 80.8293013000364	| 6|605
