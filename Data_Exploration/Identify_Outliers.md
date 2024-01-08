@@ -84,5 +84,21 @@ ORDER BY
 | Z-Score| Number of rows	|
 |--|--|
 |1| 204,907
-|1.5|0
-|2| 0
+|1.5|75,823
+|2| 68,295
+|2.5|57,105
+
+[Z-Score](https://umsystem.pressbooks.pub/isps/chapter/chapter-4/) is considered a solid method to identify outliers. When the threshold is either over or under 2.5, it is considered an outlier.
+
+- Outliers:
+
+Z-score|unit_price|
+|--|--|
+|> 2.5|40|
+|> 2.5|42|
+|> 2.5|44|
+|> 2.5|45|
+|> 2.5|46|
+|> 2.5|48|
+|> 2.5|53|
+|> 2.5|55
