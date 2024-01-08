@@ -214,6 +214,8 @@ ORDER BY unit_price;
 |2| 10
 |2.5|8
 
+[Z-Score](https://umsystem.pressbooks.pub/isps/chapter/chapter-4/) is considered a solid method to identify outliers. When the threshold is either over or under 2.5, it is considered an outlier.
+
 - Outliers:
 
 Z-score| unit_price (*8 in total*)|
