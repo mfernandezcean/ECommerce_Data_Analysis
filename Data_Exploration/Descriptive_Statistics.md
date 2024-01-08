@@ -130,3 +130,48 @@ FROM
 | Total_Price_mean	|Total_Price_min_value	| Total_Price_max_value	|Total_Price_median
 |--|--|--|--|
 |105.40143575	| 6| 605	|90
+
+- Item Table:
+
+### Unit Price:
+
+```
+SELECT 
+  AVG(unit_price) AS Unit_Price_mean, 
+  MIN(unit_price) AS Unit_Price_min_value, 
+  MAX(unit_price) AS Unit_Price_max_value, 
+  (
+    (
+      SELECT 
+        MAX(unit_price) 
+      FROM 
+        (
+          SELECT 
+            TOP 50 PERCENT unit_price 
+          FROM 
+            item_dim 
+          ORDER BY 
+            unit_price
+        ) AS BottomHalf
+    ) + (
+      SELECT 
+        MIN(unit_price) 
+      FROM 
+        (
+          SELECT 
+            TOP 50 PERCENT unit_price 
+          FROM 
+            item_dim 
+          ORDER BY 
+            unit_price DESC
+        ) AS TopHalf
+    )
+  ) / 2 AS Unit_Price_median 
+FROM 
+  item_dim;
+
+```
+
+| Unit_Price_mean	|Unit_Price_min_value	| Unit_Price_max_value	|Unit_Price_median
+|--|--|--|--|
+|17.5549242424242	| 6| 55	|16
