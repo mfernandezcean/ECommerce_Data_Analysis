@@ -88,5 +88,45 @@ FROM
 |--|--|--|--|
 |17.56160175	| 6| 55	|16
 
+### Total Price:
 
+```
+SELECT 
+  AVG(total_price) AS Total_Price_mean, 
+  MIN(total_price) AS Total_Price_min_value, 
+  MAX(total_price) AS Total_Price_max_value, 
+  (
+    (
+      SELECT 
+        MAX(total_price) 
+      FROM 
+        (
+          SELECT 
+            TOP 50 PERCENT total_price 
+          FROM 
+            fact_table 
+          ORDER BY 
+            total_price
+        ) AS BottomHalf
+    ) + (
+      SELECT 
+        MIN(total_price) 
+      FROM 
+        (
+          SELECT 
+            TOP 50 PERCENT total_price 
+          FROM 
+            fact_table 
+          ORDER BY 
+            total_price DESC
+        ) AS TopHalf
+    )
+  ) / 2 AS Total_Price_median 
+FROM 
+  fact_table;
 
+```
+
+| Total_Price_mean	|Total_Price_min_value	| Total_Price_max_value	|Total_Price_median
+|--|--|--|--|
+|105.40143575	| 6| 605	|90
