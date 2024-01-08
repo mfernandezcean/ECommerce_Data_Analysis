@@ -157,6 +157,8 @@ ORDER BY total_price;
 |2| 51
 |2.5|41
 
+- Outliers:
+
 Z-score|total_price (*41 in total*)|
 |--|--|
 |> 2.5|308
@@ -170,3 +172,55 @@ Z-score|total_price (*41 in total*)|
 |> 2.5|605
 
 ## WHAT TO DO WITH THESE OUTLIERS???????????????????????????
+
+---
+
+- Item Table:
+
+```
+SELECT 
+	AVG(unit_price) as mean,
+	STDEV(unit_price) as std_dev,
+	min(unit_price) as min_value,
+	Max(unit_price) as max_value
+FROM item_dim;
+```
+
+| mean	| std_dev	|min_value	| max_value
+|--|--|--|--|
+|17.5549242424242	| 8.63501660573454	| 6|55
+
+#### Z-Score:
+
+```
+WITH ZScoreCTE AS (
+    SELECT
+        unit_price,
+        (unit_price - AVG(unit_price) OVER ()) / STDEV(unit_price) OVER () AS ZScore
+    FROM item_dim
+)
+SELECT Distinct unit_price
+FROM ZScoreCTE
+WHERE ABS(ZScore) > 1 
+ORDER BY unit_price;
+```
+
+| Z-Score| Number of rows	|
+|--|--|
+|1| 18
+|1.5|12
+|2| 10
+|2.5|8
+
+- Outliers:
+
+Z-score| unit_price|
+|--|--|
+|> 2.5|40
+|> 2.5|42
+|> 2.5|44
+|> 2.5|45
+|> 2.5|46
+|> 2.5|48
+|> 2.5|53
+|> 2.5|55
