@@ -41,3 +41,9 @@ WHERE
 ```
 
 ![image](https://github.com/mfernandezcean/ECommerce_Data_Analysis/assets/105746149/3bed7f92-9588-4f56-b145-68ab746ae83c)
+
+| Z-Score| Number of rows	|
+|--|--|
+|1| 363,606
+|1.5|181,719
+|2| 0
