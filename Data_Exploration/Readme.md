@@ -74,3 +74,17 @@ Total Price :
  - 48
  - 53
  - 55
+
+- [Time Analysis](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Time_Series_Analysis.md)
+
+Distribution of the item's analyzed seem to have no seasonality or any other aspect that stand's out. Example:
+
+Quarter : 
+
+
+| quarter	| num_records|
+|--|--|
+|1.00| 24,783
+|2.00|24,838
+|3.00| 25,265
+|4.00|25,113
