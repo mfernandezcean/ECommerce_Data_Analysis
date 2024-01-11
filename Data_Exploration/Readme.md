@@ -29,3 +29,48 @@
 | Item| Mean|Min| Max|Median
 |--|--|--|--|--|
 |Unit Price| 17.5549242424242| 6|55| 16
+
+
+
+
+- #### [Outliers](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Exploration/Identify_Outliers.md)
+
+In general, the outliers of these tables seem to have logic. So no further actions were made.
+
+### Fact Table:
+
+Unit Price :
+
+ - 40
+ - 42
+ - 44
+ - 45
+ - 46
+ - 48
+ - 53
+ - 55
+
+Total Price :
+
+ - 308
+ - 315
+ - 318
+ - 319
+ - ...
+ - 530
+ - 550
+ - 583
+ - 605
+
+### Item Table:
+
+Total Price :
+
+ - 40
+ - 42
+ - 44
+ - 45
+ - 46
+ - 48
+ - 53
+ - 55
