@@ -15,3 +15,9 @@ Fact Table Columns:
 | time_key |time_dim  |
 | item_key |item_dim  |
 |  store_key| store_dim |
+
+- Star Schema:
+
+
+![image](https://github.com/mfernandezcean/ECommerce_Data_Analysis/assets/105746149/bd1c6fe0-f08b-466b-86ea-0af420752ee2)
+
