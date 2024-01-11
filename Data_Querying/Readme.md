@@ -1,2 +1,3 @@
 ## Querying: 
 
+Where to start?
