@@ -40,3 +40,6 @@ For more detalied information on Data Description go to [Data Preview](https://g
 | Store Table|726 |
 | Time Table|99,999 |
 | Transaction (_payment_) Table| 39|
+
+
+For more in depth information on Data Exploration, visit the [folder](https://github.com/mfernandezcean/ECommerce_Data_Analysis/edit/main/Data_Exploration/Readme.md)
