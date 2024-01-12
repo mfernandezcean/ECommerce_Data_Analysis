@@ -30,3 +30,12 @@ For more detalied information on Data Description go to [Data Preview](https://g
 ---
 
 ## [Data Exploration](%5BLoaded%5D%28https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Loading%29):
+
+|  Table Name| num_rows |
+|--|--|
+| Customer Table |9,191|
+| Fact Table| 1,000,000|
+|Item Table | 264|
+| Store Table|726 |
+| Time Table|99,999 |
+| Transaction (_payment_) Table| 39|
