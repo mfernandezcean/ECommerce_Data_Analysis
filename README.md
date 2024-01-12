@@ -21,3 +21,12 @@ There are exactly 6 tables, 1 of which is a fact table and the rest are dimensio
 
 For more detalied information on Data Description go to [Data Preview](https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Preview)
 
+- [Loaded](https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Loading) the CSV files into the created SQL Database. 
+
+### [Schema](https://github.com/mfernandezcean/ECommerce_Data_Analysis/edit/main/Data_Schema/Readme.md):
+
+![image](https://github.com/mfernandezcean/ECommerce_Data_Analysis/assets/105746149/bd1c6fe0-f08b-466b-86ea-0af420752ee2)
+
+---
+
+## [Data Exploration](%5BLoaded%5D%28https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Loading%29):
