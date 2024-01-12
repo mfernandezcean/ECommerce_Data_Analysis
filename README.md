@@ -45,3 +45,17 @@ For more detalied information on Data Description go to [Data Preview](https://g
 For more in depth information on Data Exploration, visit the [folder](https://github.com/mfernandezcean/ECommerce_Data_Analysis/edit/main/Data_Exploration/Readme.md)
 
 ## This important information has been gathered:
+
+For much more detailed info go to the [Data_Queriyng folder](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Querying/Readme.md)
+
+ - Top Item:
+ - Bottom Item:
+ 
+ - Top Supplier
+ - Bottom Supplier
+ 
+ - Top Customer: **Pooja**
+ - Bottom Customer: **Indrvati**
+
+ - Top Year *(by income)* : **2018 with 15,108,197**
+ - Bottom Year *(by income)*: **2014 with 14,334,731** *(excluding 2021)*
