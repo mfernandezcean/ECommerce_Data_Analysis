@@ -59,3 +59,19 @@ For much more detailed info go to the [Data_Queriyng folder](https://github.com/
 
  - Top Year *(by income)* : **2018 with 15,108,197**
  - Bottom Year *(by income)*: **2014 with 14,334,731** *(excluding 2021)*
+
+Top 3 Revenue Descriptions:
+
+|  | Description | Income|
+|--|--|--|
+|1  | Beverage - Energy/Protein  |10,737,402
+|  2| Food - Healthy |10,379,038
+| 3 | Kitchen Supplies |8,434,526
+
+Bottom 3 Revenue Descriptions:
+
+|  | Description | Income|
+|--|--|--|
+|1  | Coffee K-Cups Tea  |201,186
+|  2| Coffee Stirrers |386,461
+| 3 | Dishware - Bowls |637,224
