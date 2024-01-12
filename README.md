@@ -43,3 +43,5 @@ For more detalied information on Data Description go to [Data Preview](https://g
 
 
 For more in depth information on Data Exploration, visit the [folder](https://github.com/mfernandezcean/ECommerce_Data_Analysis/edit/main/Data_Exploration/Readme.md)
+
+## This important information has been gathered:
