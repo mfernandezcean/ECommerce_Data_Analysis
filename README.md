@@ -3,7 +3,7 @@
 ![dataset-cover](https://github.com/mfernandezcean/ECommerce_Data_Analysis/assets/105746149/05cbb1a5-1bb4-4ec2-b5ed-2f7ec411f61f)
 
 ## Situation:
-??????????????????
+These data sets contain information about E-commerce transactions that occurred in various countries, suppliers, and items, etc. This Data is been created by [MIT license](https://www.mit.edu/~amini/LICENSE.md).
 
 
 ## Data Description:
