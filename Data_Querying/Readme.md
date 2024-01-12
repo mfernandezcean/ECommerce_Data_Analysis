@@ -1,6 +1,6 @@
 # Querying: 
 
-- ## How sells more items?
+- ## Where more items are sold?
 
 ## by Divisions
 
@@ -89,4 +89,6 @@ ORDER BY
 |1| SYLHET	| 98,609|
 |2|  SUNAMGANJ	| 90,457|
 | 3| HABIGANJ	|65,937|
+
+- ## How buys more items?
 
