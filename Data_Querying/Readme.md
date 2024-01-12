@@ -14,6 +14,8 @@
 |6| BARISAL	 |428,042  |
 | 7| SYLHET	|  313,542|
 
+### Dhaka and Chittagong sell more than the other 5 divisions combined. 
+
 ## INSIDE the Divisions: District's
 
 #### Top 3 Districts by Division
