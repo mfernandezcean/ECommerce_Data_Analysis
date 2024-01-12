@@ -122,3 +122,26 @@ ORDER BY
 | 8| seema	|DHAKA	|17,458  |
 | 9| suman	|DHAKA	|16,591  |
 | 10| mamta	|DHAKA	| 15,190 |
+
+
+- ## When the items where sold?
+
+```
+SELECT 
+  Year, 
+  -- name, 
+  --division,
+  sum(quantity) as Quantitysold, 
+  sum(total_price) as Income 
+FROM 
+  fact_table 
+  JOIN customer_dim ON fact_table.coustomer_key = customer_dim.coustomer_key 
+  JOIN store_dim ON fact_table.store_key = store_dim.store_key 
+  JOIN time_dim ON fact_table.time_key = time_dim.time_key 
+GROUP BY 
+  Year 
+ORDER BY 
+  Year ASC;
+
+
+```
