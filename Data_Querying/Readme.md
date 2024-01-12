@@ -204,3 +204,17 @@ ORDER BY
 |8	| NINGBO SEDUNO IMP & EXP CO.LTD|9,463,861|
 |9	| HARDFORD AB|9,416,792|
 |10	| CHERRY GROUP CO.,LTD|5,992,661|
+
+
+| | Countries_Supplier	| Quantity|
+|--|--|--|
+| 1| Bangladesh	| 772,031|
+|2| India	| 730,625|
+| 3| Germany	|699,848|
+| 4|poland	| 635,611|
+| 5|Finland	| 611,923|
+|  6|  Lithuania	| 592,105|
+| 7| Netherlands	 | 591,636|
+|8	| Cambodia|547,676|
+|9	| United States|456,085|
+|10	| China	|362,645|
