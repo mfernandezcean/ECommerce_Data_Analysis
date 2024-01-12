@@ -165,7 +165,7 @@ ORDER BY
 ```
 SELECT 
   TOP 10 item_dim.item_name AS item, 
-  SUM(fact_table.total_price) AS total_quantity_sales 
+  SUM(fact_table.total_price) AS Quantitysold 
 FROM 
   fact_table 
   JOIN item_dim ON fact_table.item_key = item_dim.item_key 
@@ -177,7 +177,7 @@ ORDER BY
 
 ```
 
-| | item	| total_quantity_sales|
+| | item	| Quantitysold|
 |--|--|--|
 | 1| Red Bull 12oz| 1,305,700|
 |2|  K Cups Daily Chef Columbian Supremo| 1,245,394|
@@ -189,3 +189,18 @@ ORDER BY
 |8	| K Cups � Starbuck's Pike Place|995,456|
 |9	| K Cups �Organic Breakfast Blend|957,516|
 |10	| K Cups - McCafe Premium Roast|956,886|
+
+### By Supplier:
+
+| | Suppliers	| total_quantity_sales|
+|--|--|--|
+| 1| DENIMACH LTD| 13,337,300|
+|2| Indo Count Industries Ltd| 13,159,323|
+| 3| BIGSO AB|11,746,920|
+| 4|CHROMADURLIN S.A.S| 10,976,287|
+| 5|Friedola 1888 GmbH| 10,957,102|
+|  6|  Bolsius Boxmeer| 10,458,204|
+| 7| MAESA SAS | 9,892,983|
+|8	| NINGBO SEDUNO IMP & EXP CO.LTD|9,463,861|
+|9	| HARDFORD AB|9,416,792|
+|10	| CHERRY GROUP CO.,LTD|5,992,661|
