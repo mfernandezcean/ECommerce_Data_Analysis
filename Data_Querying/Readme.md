@@ -158,3 +158,34 @@ ORDER BY
 |  2019	|  851,282	| 14,949,510|
 | 2020	 | 857,005	 | 15,037,190|
 |2021 *(only 1 month)*	| 50,105	 |883,772 |
+
+
+- ## Which items had more sales?
+
+```
+SELECT 
+  TOP 10 item_dim.item_name AS item, 
+  SUM(fact_table.total_price) AS total_quantity_sales 
+FROM 
+  fact_table 
+  JOIN item_dim ON fact_table.item_key = item_dim.item_key 
+  JOIN store_dim ON fact_table.store_key = store_dim.store_key 
+GROUP BY 
+  item_dim.item_name 
+ORDER BY 
+  total_quantity_sales DESC;
+
+```
+
+| | item	| total_quantity_sales|
+|--|--|--|
+| 1| Red Bull 12oz| 1,305,700|
+|2|  K Cups Daily Chef Columbian Supremo| 1,245,394|
+| 3| K Cups Original Donut Shop Med. Roast|1,188,843|
+| 4|K Cups Dunkin Donuts Medium Roast| 1,109,760|
+| 5|Muscle Milk Protein Shake Van. 11oz| 1,050,924|
+|  6|  K Cups Folgers Lively Columbian| 1,042,406|
+| 7| Honey Packets | 1,012,995|
+|8	| K Cups � Starbuck's Pike Place|995,456|
+|9	| K Cups �Organic Breakfast Blend|957,516|
+|10	| K Cups - McCafe Premium Roast|956,886|
