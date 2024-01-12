@@ -51,8 +51,8 @@ For much more detailed info go to the [Data_Queriyng folder](https://github.com/
  - Top Item: **Red Bull 12oz with 1,305,700 units**
  - Bottom Item: **Blue Diamond Almonds Rstd, Sltd with 136,908**
  
- - Top Supplier
- - Bottom Supplier
+ - Top Supplier: **DENIMACH LTD From Bangladesh**
+ - Bottom Supplier **CHERRY GROUP CO.,LTD From China**
  
  - Top Customer: **Pooja**
  - Bottom Customer: **Indrvati**
