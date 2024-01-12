@@ -27,9 +27,10 @@ For more detalied information on Data Description go to [Data Preview](https://g
 
 ![image](https://github.com/mfernandezcean/ECommerce_Data_Analysis/assets/105746149/bd1c6fe0-f08b-466b-86ea-0af420752ee2)
 
----
 
 ## [Data Exploration](%5BLoaded%5D%28https://github.com/mfernandezcean/ECommerce_Data_Analysis/tree/main/Data_Loading%29):
+
+- Rows:
 
 |  Table Name| num_rows |
 |--|--|
