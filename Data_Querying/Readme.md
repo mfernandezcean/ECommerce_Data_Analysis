@@ -92,3 +92,33 @@ ORDER BY
 
 - ## How buys more items?
 
+```
+SELECT 
+  TOP 10 name, 
+  division, 
+  sum(quantity) as Quantitysold 
+FROM 
+  fact_table 
+  JOIN customer_dim ON fact_table.coustomer_key = customer_dim.coustomer_key 
+  JOIN store_dim ON fact_table.store_key = store_dim.store_key 
+GROUP BY 
+  name, 
+  division 
+ORDER BY 
+  Quantitysold DESC;
+
+```
+
+
+||name	| division	|Quantitysold |
+|--|--|--|--|
+|1| pooja	| DHAKA	| 46,823 |
+|2|  jyoti	| DHAKA	|29,130|
+| 3| pooja	|CHITTAGONG	|22,828|
+| 4| neha	|DHAKA	| 22,170 |
+| 5| sunita	|DHAKA	| 20,385 |
+| 6| poonam	|DHAKA	|20,132  |
+| 7| priyanka	|priyanka	| 18,123 |
+| 8| seema	|DHAKA	|17,458  |
+| 9| suman	|DHAKA	|16,591  |
+| 10| mamta	|DHAKA	| 15,190 |
