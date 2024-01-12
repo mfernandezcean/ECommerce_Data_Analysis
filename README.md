@@ -48,8 +48,8 @@ For more in depth information on Data Exploration, visit the [folder](https://gi
 
 For much more detailed info go to the [Data_Queriyng folder](https://github.com/mfernandezcean/ECommerce_Data_Analysis/blob/main/Data_Querying/Readme.md)
 
- - Top Item:
- - Bottom Item:
+ - Top Item: **Red Bull 12oz with 1,305,700 units**
+ - Bottom Item: **Blue Diamond Almonds Rstd, Sltd with 136,908**
  
  - Top Supplier
  - Bottom Supplier
