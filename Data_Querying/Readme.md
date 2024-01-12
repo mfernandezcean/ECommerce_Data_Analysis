@@ -160,6 +160,8 @@ ORDER BY
 |2021 *(only 1 month)*	| 50,105	 |883,772 |
 
 
+
+
 - ## Which items had more sales?
 
 ```
@@ -189,6 +191,42 @@ ORDER BY
 |8	| K Cups � Starbuck's Pike Place|995,456|
 |9	| K Cups �Organic Breakfast Blend|957,516|
 |10	| K Cups - McCafe Premium Roast|956,886|
+
+- Top 3 Revenue Descriptions of Items:
+
+```
+SELECT 
+  Top 3 [desc], 
+  sum(total_price) as Income 
+FROM 
+  item_dim 
+  JOIN fact_table ON item_dim.item_key = fact_table.item_key 
+GROUP BY 
+  [desc] 
+ORDER BY 
+  Income desc;
+
+```
+- Top 3 Revenue Descriptions of Items:
+
+```
+SELECT 
+  Top 3 [desc], 
+  sum(total_price) as Income 
+FROM 
+  item_dim 
+  JOIN fact_table ON item_dim.item_key = fact_table.item_key 
+GROUP BY 
+  [desc] 
+ORDER BY 
+  Income desc;
+
+```
+|  | Description | Income|
+|--|--|--|
+|1  | Beverage - Energy/Protein  |10,737,402
+|  2| Food - Healthy |10,379,038
+| 3 | Kitchen Supplies |8,434,526
 
 ### By Supplier:
 
